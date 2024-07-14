@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Euclid Circular B Regular";
+    src: url(/fonts/EuclidCircularB-regular.ttf);
+}
+
+@font-face {
+    font-family: "Euclid Circular B Bold";
+    src: url(/fonts/EuclidCircularB-bold.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Euclid Circular B Regular; 
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.upper-section {
+    padding-left: 163px;
+    padding-right: 163px;
+    background-color: #f0f3f7;
+}
+
+.upper-section .flex-contianer {
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.upper-section .flex-contianer a {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.link-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-down-grey {
+   opacity: 0.5;
+   width: 14px;
+   margin-left: 2px;
+}
+
+.lower-section {
+
+}
+
+.lower-section .flex-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.lower-section .title {
+    font-weight: 900;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store-link img {
+    width: 110px;
+}
